@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background-image: url(assets/bg-pattern-top-desktop.svg),
+    url(assets/bg-pattern-bottom-desktop.svg);
+
+  background-position: top left, bottom right;
+  background-repeat: no-repeat;
+}

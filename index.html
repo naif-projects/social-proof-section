@@ -14,71 +14,177 @@
     <title>Social proof section</title>
   </head>
 
-  <body class="p-4 font-primary">
+  <body class="p-4 font-primary md:px-10">
     <!-- footer -->
 
-    <main class="min-h-screen flex justify-center items-center mt-16">
+    <main
+      class="min-h-screen flex justify-center items-center mt-16 max-w-6xl mx-auto"
+    >
       <div>
-        <!-- title -->
-        <div>
-          <h1 class="font-bold text-primary-dark text-3xl text-center">
-            10,000+ of our users love our products.
-          </h1>
-        </div>
-
-        <!-- info -->
-        <div class="mt-6">
-          <p class="text-center text-lg text-primary-dark">
-            We only provide great products combined with excellent customer
-            service. See what our satisfied customers are saying about our
-            services.
-          </p>
-        </div>
-
-        <!-- reviews cards -->
-        <div class="mt-6 text-center space-y-4 text-primary-dark font-medium">
-          <!-- reive 1 -->
-          <div class="bg-primary-light p-4 rounded-lg">
-            <div class="flex justify-center gap-2">
-              <img src="assets/icon-star.svg" alt="icon-star" />
-              <img src="assets/icon-star.svg" alt="icon-star" />
-              <img src="assets/icon-star.svg" alt="icon-star" />
-              <img src="assets/icon-star.svg" alt="icon-star" />
-              <img src="assets/icon-star.svg" alt="icon-star" />
+        <section class="md:grid md:grid-cols-2 md:items-center gap-32">
+          <div class="text-center md:text-left">
+            <!-- title -->
+            <div>
+              <h1
+                class="font-bold text-primary-dark text-3xl md:text-4xl lg:text-5xl max-w-md"
+              >
+                10,000+ of our users love our products.
+              </h1>
             </div>
 
-            <p class="mt-2">Rated 5 Stars in Reviews</p>
+            <!-- info -->
+            <div class="mt-6">
+              <p class="text-lg text-primary-base md:text-xl max-w-md">
+                We only provide great products combined with excellent customer
+                service. See what our satisfied customers are saying about our
+                services.
+              </p>
+            </div>
           </div>
 
-          <!-- reive 2 -->
-          <div class="bg-primary-light p-4 rounded-lg">
-            <div class="flex justify-center gap-2">
-              <img src="assets/icon-star.svg" alt="icon-star" />
-              <img src="assets/icon-star.svg" alt="icon-star" />
-              <img src="assets/icon-star.svg" alt="icon-star" />
-              <img src="assets/icon-star.svg" alt="icon-star" />
-              <img src="assets/icon-star.svg" alt="icon-star" />
+          <!-- reviews cards -->
+          <div
+            class="mt-6 text-center md:text-left space-y-4 text-primary-dark font-medium"
+          >
+            <!-- reive 1 -->
+            <div
+              class="bg-primary-light p-4 rounded-lg md:flex gap-4 md:transform md:-translate-x-16"
+            >
+              <div class="flex justify-center gap-2 items-center px-4">
+                <img
+                  class="w-4 h-4"
+                  src="assets/icon-star.svg"
+                  alt="icon-star"
+                  width="17"
+                  height="17"
+                />
+                <img
+                  class="w-4 h-4"
+                  src="assets/icon-star.svg"
+                  alt="icon-star"
+                  width="17"
+                  height="17"
+                />
+                <img
+                  class="w-4 h-4"
+                  src="assets/icon-star.svg"
+                  alt="icon-star"
+                  width="17"
+                  height="17"
+                />
+                <img
+                  class="w-4 h-4"
+                  src="assets/icon-star.svg"
+                  alt="icon-star"
+                  width="17"
+                  height="17"
+                />
+                <img
+                  class="w-4 h-4"
+                  src="assets/icon-star.svg"
+                  alt="icon-star"
+                  width="17"
+                  height="17"
+                />
+              </div>
+
+              <p class="mt-2">Rated 5 Stars in Reviews</p>
             </div>
 
-            <p class="mt-2">Rated 5 Stars in Report Guru</p>
-          </div>
+            <!-- reive 2 -->
+            <div
+              class="bg-primary-light p-4 rounded-lg md:flex gap-4 md:transform md:-translate-x-8"
+            >
+              <div class="flex justify-center gap-2 items-center px-4">
+                <img
+                  class="w-4 h-4"
+                  src="assets/icon-star.svg"
+                  alt="icon-star"
+                  width="17"
+                  height="17"
+                />
+                <img
+                  class="w-4 h-4"
+                  src="assets/icon-star.svg"
+                  alt="icon-star"
+                  width="17"
+                  height="17"
+                />
+                <img
+                  class="w-4 h-4"
+                  src="assets/icon-star.svg"
+                  alt="icon-star"
+                  width="17"
+                  height="17"
+                />
+                <img
+                  class="w-4 h-4"
+                  src="assets/icon-star.svg"
+                  alt="icon-star"
+                  width="17"
+                  height="17"
+                />
+                <img
+                  class="w-4 h-4"
+                  src="assets/icon-star.svg"
+                  alt="icon-star"
+                  width="17"
+                  height="17"
+                />
+              </div>
 
-          <!-- reive 3 -->
-          <div class="bg-primary-light p-4 rounded-lg">
-            <div class="flex justify-center gap-2">
-              <img src="assets/icon-star.svg" alt="icon-star" />
-              <img src="assets/icon-star.svg" alt="icon-star" />
-              <img src="assets/icon-star.svg" alt="icon-star" />
-              <img src="assets/icon-star.svg" alt="icon-star" />
-              <img src="assets/icon-star.svg" alt="icon-star" />
+              <p class="mt-2">Rated 5 Stars in Report Guru</p>
             </div>
 
-            <p class="mt-2">Rated 5 Stars in BestTech</p>
+            <!-- reive 3 -->
+            <div class="bg-primary-light p-4 rounded-lg md:flex gap-4">
+              <div class="flex justify-center gap-2 items-center px-4">
+                <img
+                  class="w-4 h-4"
+                  src="assets/icon-star.svg"
+                  alt="icon-star"
+                  width="17"
+                  height="17"
+                />
+                <img
+                  class="w-4 h-4"
+                  src="assets/icon-star.svg"
+                  alt="icon-star"
+                  width="17"
+                  height="17"
+                />
+                <img
+                  class="w-4 h-4"
+                  src="assets/icon-star.svg"
+                  alt="icon-star"
+                  width="17"
+                  height="17"
+                />
+                <img
+                  class="w-4 h-4"
+                  src="assets/icon-star.svg"
+                  alt="icon-star"
+                  width="17"
+                  height="17"
+                />
+                <img
+                  class="w-4 h-4"
+                  src="assets/icon-star.svg"
+                  alt="icon-star"
+                  width="17"
+                  height="17"
+                />
+              </div>
+
+              <p class="mt-2">Rated 5 Stars in BestTech</p>
+            </div>
           </div>
-        </div>
+        </section>
 
         <!-- clients reviews -->
-        <div class="mt-6 space-y-4">
+        <div
+          class="mt-6 space-y-4 md:space-y-0 md:mt-20 md:grid md:grid-cols-3 md:gap-8"
+        >
           <!-- item 1 -->
           <div class="bg-primary-dark text-primary-light py-8 px-6 rounded-lg">
             <header class="flex gap-4">
@@ -106,7 +212,9 @@
           </div>
 
           <!-- item 2 -->
-          <div class="bg-primary-dark text-primary-light py-8 px-6 rounded-lg">
+          <div
+            class="bg-primary-dark text-primary-light py-8 px-6 rounded-lg md:transform md:translate-y-8"
+          >
             <header class="flex gap-4">
               <img
                 class="rounded-full"
@@ -132,7 +240,9 @@
           </div>
 
           <!-- item 3 -->
-          <div class="bg-primary-dark text-primary-light py-8 px-6 rounded-lg">
+          <div
+            class="bg-primary-dark text-primary-light py-8 px-6 rounded-lg md:transform md:translate-y-16"
+          >
             <header class="flex gap-4">
               <img
                 class="rounded-full"
@@ -160,7 +270,7 @@
       </div>
     </main>
 
-    <footer class="py-6 text-center">
+    <footer class="py-6 text-center md:mt-20">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
