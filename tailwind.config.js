@@ -3,17 +3,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'primary-light': 'color_here',
-        'primary-base': 'color_here',
-        'primary-dark': 'color_here',
+        'primary-light': 'hsl(300, 24%, 96%)',
+        'primary-base': 'hsl(303, 10%, 53%)',
+        'primary-dark': 'hsl(300, 43%, 22%)',
 
-        'secondary-light': 'color_here',
-        'secondary-base': 'color_here',
-        'secondary-dark': 'color_here',
+        'secondary-base': 'hsl(333, 80%, 67%)',
       },
 
       fontFamily: {
-        primary: ["'custom_font_here'", 'sans-serif'],
+        primary: ["'League Spartan'", 'sans-serif'],
       },
     },
   },
