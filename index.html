@@ -4,23 +4,162 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="challenge for front end mentor">
+    <meta name="description" content="challenge for front end mentor" />
 
     <!-- font  -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-          rel="preload" as="style"
-      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
-      rel="stylesheet"
-    />
 
     <!-- page title -->
-    <title> </title>
+    <title>Social proof section</title>
   </head>
 
-  <body>
+  <body class="p-4 font-primary">
     <!-- footer -->
+
+    <main class="min-h-screen flex justify-center items-center mt-16">
+      <div>
+        <!-- title -->
+        <div>
+          <h1 class="font-bold text-primary-dark text-3xl text-center">
+            10,000+ of our users love our products.
+          </h1>
+        </div>
+
+        <!-- info -->
+        <div class="mt-6">
+          <p class="text-center text-lg text-primary-dark">
+            We only provide great products combined with excellent customer
+            service. See what our satisfied customers are saying about our
+            services.
+          </p>
+        </div>
+
+        <!-- reviews cards -->
+        <div class="mt-6 text-center space-y-4 text-primary-dark font-medium">
+          <!-- reive 1 -->
+          <div class="bg-primary-light p-4 rounded-lg">
+            <div class="flex justify-center gap-2">
+              <img src="assets/icon-star.svg" alt="icon-star" />
+              <img src="assets/icon-star.svg" alt="icon-star" />
+              <img src="assets/icon-star.svg" alt="icon-star" />
+              <img src="assets/icon-star.svg" alt="icon-star" />
+              <img src="assets/icon-star.svg" alt="icon-star" />
+            </div>
+
+            <p class="mt-2">Rated 5 Stars in Reviews</p>
+          </div>
+
+          <!-- reive 2 -->
+          <div class="bg-primary-light p-4 rounded-lg">
+            <div class="flex justify-center gap-2">
+              <img src="assets/icon-star.svg" alt="icon-star" />
+              <img src="assets/icon-star.svg" alt="icon-star" />
+              <img src="assets/icon-star.svg" alt="icon-star" />
+              <img src="assets/icon-star.svg" alt="icon-star" />
+              <img src="assets/icon-star.svg" alt="icon-star" />
+            </div>
+
+            <p class="mt-2">Rated 5 Stars in Report Guru</p>
+          </div>
+
+          <!-- reive 3 -->
+          <div class="bg-primary-light p-4 rounded-lg">
+            <div class="flex justify-center gap-2">
+              <img src="assets/icon-star.svg" alt="icon-star" />
+              <img src="assets/icon-star.svg" alt="icon-star" />
+              <img src="assets/icon-star.svg" alt="icon-star" />
+              <img src="assets/icon-star.svg" alt="icon-star" />
+              <img src="assets/icon-star.svg" alt="icon-star" />
+            </div>
+
+            <p class="mt-2">Rated 5 Stars in BestTech</p>
+          </div>
+        </div>
+
+        <!-- clients reviews -->
+        <div class="mt-6 space-y-4">
+          <!-- item 1 -->
+          <div class="bg-primary-dark text-primary-light py-8 px-6 rounded-lg">
+            <header class="flex gap-4">
+              <img
+                class="rounded-full"
+                src="assets/image-colton.jpg"
+                alt="user image"
+                width="45"
+                height="45"
+              />
+
+              <div class="flex flex-col">
+                <span class="text-sm"> Colton Smith </span>
+                <span class="text-secondary-base"> Verified Buyer </span>
+              </div>
+            </header>
+
+            <blockquote class="mt-6">
+              <q
+                >We needed the same printed design as the one we had ordered a
+                week prior. Not only did they find the original order, but we
+                also received it in time. Excellent!</q
+              >
+            </blockquote>
+          </div>
+
+          <!-- item 2 -->
+          <div class="bg-primary-dark text-primary-light py-8 px-6 rounded-lg">
+            <header class="flex gap-4">
+              <img
+                class="rounded-full"
+                src="assets/image-irene.jpg"
+                alt="user image"
+                width="45"
+                height="45"
+              />
+
+              <div class="flex flex-col">
+                <span class="text-sm"> Irene Roberts </span>
+                <span class="text-secondary-base"> Verified Buyer </span>
+              </div>
+            </header>
+
+            <blockquote class="mt-6">
+              <q
+                >Customer service is always excellent and very quick turn
+                around. Completely delighted with the simplicity of the purchase
+                and the speed of delivery.</q
+              >
+            </blockquote>
+          </div>
+
+          <!-- item 3 -->
+          <div class="bg-primary-dark text-primary-light py-8 px-6 rounded-lg">
+            <header class="flex gap-4">
+              <img
+                class="rounded-full"
+                src="assets/image-anne.jpg"
+                alt="user image"
+                width="45"
+                height="45"
+              />
+
+              <div class="flex flex-col">
+                <span class="text-sm"> Anne Wallace </span>
+                <span class="text-secondary-base"> Verified Buyer </span>
+              </div>
+            </header>
+
+            <blockquote class="mt-6">
+              <q
+                >Put an order with this company and can only praise them for the
+                very high standard. Will definitely use them again and recommend
+                them to everyone!</q
+              >
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </main>
+
     <footer class="py-6 text-center">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
@@ -36,5 +175,11 @@
 
     <!-- scripts -->
     <script type="module" src="/main.js"></script>
+
+    <!-- google font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
   </body>
 </html>
